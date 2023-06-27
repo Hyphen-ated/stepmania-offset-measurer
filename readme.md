@@ -1,4 +1,4 @@
-This is a tool for measuring your audio + input latency in the game Stepmania (or similar games), to determine what your "global offset" should be, in an objective way that doesn't depend on your personal skill at timing your inputs. You hook it up to your computer audio and it sends a keypress when it detects a sound.
+This is a tool for measuring your audio + input latency in the game Stepmania (or similar games), to determine what your "global offset" should be, in an objective way that doesn't depend on your personal skill at timing your inputs. You hook it up to your computer audio and USB and it sends a keypress when it detects a sound.
 
 It's an arduino sketch built for an STM32F411CEU6 "Blackpill" microcontroller, currently available on AliExpress for under $4: https://www.aliexpress.us/item/3256801269871873.html
 
