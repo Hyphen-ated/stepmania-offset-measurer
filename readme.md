@@ -32,7 +32,7 @@ Usage:
 
 10: Play the song. When it's in the process of starting, hit the "KEY" button on the board to enable sending keypresses. After the song is done you can press KEY again to toggle it back off, so you don't get a bunch of "a" keypress spam when you don't want it happening. The LED blinks once when you enable keypresses, and twice when you disable them.
 
-11: It should hit all the arrows in the song. Check your mean error on the results screen to see how good your global offset is. If your mean error is positive, reduce your offset, and vice versa. Gloffometer is a 9ms offset chart (the ITG standard), so if you want to play null-offset charts, you'll need to change the value by an additional 9ms. Here's what it looks like for me when my global offset is set to 0. This indicates that I should set my offset to -21ms
+11: It should hit all the arrows in the song. Check your mean error on the results screen to see how good your global offset is. If your mean error is positive, reduce your offset, and vice versa. Gloffometer is a 9ms offset chart (the ITG standard), so if you want to play null-offset charts, your value will be different by 9ms. Here's what it looks like for me when my global offset is set to 0. This indicates that I should set my offset to -21ms
 ![](img/measureresults.png)
 
 12: If you play the game using speakers that send the sound into the room, rather than with headphones, you'll want to account for the speed of sound in your offset. That's about 1100 feet per second, so measure how many feet it is from the speakers to your ears, and subtract 1.1ms per foot.
