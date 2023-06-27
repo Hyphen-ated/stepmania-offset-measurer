@@ -26,7 +26,7 @@ Usage:
 
 7: Copy the "test pack" folder to your Stepmania Songs/ directory. It contains a song called "Gloffometer", which is just a bunch of clicks. 
 
-8: When the song audio is going to the board, the LED should blink in time with the clicks. If it's blinking too much or not enough, you might need to adjust the "threshold" value in the code.
+8: When the song audio is going to the board, the LED should blink in time with the clicks. If it's blinking too much or not enough, you might need to adjust the "threshold" value in the code. You also probably want to turn up your game volume as loud as it can go.
 
 9: Bind the "a" key on your keyboard to the left arrow in Stepmania. 
 
